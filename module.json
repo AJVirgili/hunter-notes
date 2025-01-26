@@ -1,0 +1,39 @@
+{
+  "id": "fichas-de-las-notas-del-cazador",
+  "title": "Fichas de las Notas del Cazador",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Módulo con las fichas de las Notas del Cazador. Para el sistema de Annima Beyond Fantasy, creadas por Shiryu y Scy",
+  "authors": [
+    {
+      "name": "Scylior",
+      "discord": "scylior",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "criaturas",
+      "label": "Notas del Cazador",
+      "path": "packs/criaturas",
+      "type": "Actor",
+      "system": "animabf",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "animabf",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
